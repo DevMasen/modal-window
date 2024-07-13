@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal window</title>
+  </head>
+  <body>
+    <button class="show-modal home-button">Home</button>
+    <button class="show-modal aboutme-btn">About Me</button>
+    <button class="show-modal links-btn">Useful Links</button>
+
+    <div class="modal hidden home">
+      <button class="close-modal">&times;</button>
+      <h1>Home 🏠</h1>
+      <p>
+        Description 📃 <br />
+        This is a test program made with JavaScript and shows how to add, remove
+        and check if a CSS class exist. <br />
+        Also we handle Escape Key Event on this programm. <br />
+        Be free and use source if you need 🥰
+      </p>
+    </div>
+
+    <div class="modal hidden aboutme">
+      <button class="close-modal">&times;</button>
+      <h1>About Me 🧑</h1>
+      <p>
+        Hi 👋 <br />
+        I'm Dev. Masen 🫡 <br />
+        Student of ValiAsr University of Rafsanjan and Newbie Web Developer
+        🐣<br />
+        I hope one day to be a great developer and thousands of people enjoy my
+        websites 🥰
+      </p>
+    </div>
+
+    <div class="modal hidden links">
+      <button class="close-modal">&times;</button>
+      <h1>Useful Links 🔗</h1>
+      <ul>
+        <li>
+          <a href="https://github.com/DevMasen" target="_blank">GitHub</a>
+        </li>
+        <li>
+          <a href="https://t.me/MasenScript" target="_blank"
+            >Telegram Channel</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
